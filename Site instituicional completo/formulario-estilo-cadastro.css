@@ -1,0 +1,51 @@
+.caixa_formulario {
+    background: white;
+    width: 400px;
+    height: 450px;
+    color: palevioletred;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.caixa_formulario h1{
+    font-size: 30px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario input {
+    width: 200px;
+    text-align: center;
+    border: 2px solid rgb(77, 130, 200);
+    border-radius: 10px;
+    
+}
+
+.formulario button {
+    margin-top: 10px;
+    background-color: rgb(223, 37, 37);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 120px;
+    align-self: center;
+}
+
+.formulario input {
+    padding: 10px 15px;
+}
+
+.formulario span {
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* css da pagina de login */
